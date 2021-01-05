@@ -1,0 +1,62 @@
+@import '../node_modules/antd/dist/antd.css';
+
+@font-face {
+    font-family: iran;
+    src: url('./assets/fonts/iran.ttf');
+}
+
+@font-face {
+    font-family: zar;
+    src: url('./assets/fonts/BZar.ttf');
+}
+
+
+body {
+    direction: rtl;
+}
+
+
+.ant-menu-item {
+    font-family: zar;
+    font-size: 17px;
+}
+
+.ant-page-header-heading-title {
+    font-family: zar;
+}
+
+ant-table-row {
+    font-family: iran;
+}
+
+.index, button{
+    font-family: iran;
+    font-size: 14px;
+    font-style: normal;
+}
+.ant-table-cell {
+    font-family: iran;
+}
+
+.ant-divider-inner-text {
+    font-family: iran;
+    color: #3c3c3c;
+}
+.ant-result-title {
+    
+    font-family: iran;
+}
+
+.ant-result-subtitle {
+    font-family: iran;
+}
+
+.ant-page-header-heading-title {
+    font-family: iran;
+}
+
+.text-danger {
+    color: red;
+    font-family: zar;
+    font-size: 13px;
+}
