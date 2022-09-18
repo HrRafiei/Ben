@@ -21,7 +21,7 @@ namespace Ben.Services
                 var cancellationToken = new CancellationToken();
                 request.AddHeader("cache-control", "no-cache");
                 request.AddHeader("Content-Type", "application/json");
-                request.AddHeader("Authorization", "AccessKey  tYqSylTAUhVr68_aMjDRAl8KAUjaqCl0-SBm9xxgKHk=");
+                request.AddHeader("Authorization", "AccessKey  your auth key");
                 request.AddParameter("undefined", "{\"pattern_code\" : \"e20mvl2btc\"" +
                 ",\"originator\" : \"+983000505\"" +
                 ",\"recipient\": \"" + phoneNumber + "\"" +
